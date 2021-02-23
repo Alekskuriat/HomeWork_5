@@ -25,7 +25,7 @@ public class Main {
 
         System.out.println("  Сотрудники, старше 40 лет  ");
         for (int i = 0; i < employeeArray.length; i++) {
-            if (employeeArray[i].age >= 40) employeeArray[i].info();
+            if (employeeArray[i].getAge() >= 40) employeeArray[i].info();
         }
         
     }
